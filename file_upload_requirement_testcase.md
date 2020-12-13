@@ -2,4 +2,4 @@
 
 | Test case | Pre-Condition | Input | Action | Expected Results | Post-condition |
 |---|---|---|---|---|---|
-|Up load file - 01 | User login, Disk space available, User quota available|File type JPG, 10 files, size 5 MB per file | Upload 10 JPG files to server | success | Server available
+|Up load file - 01 | User login, Disk space available, User quota available| User ID, File type JPG, 10 files, size 5 MB per file | Upload 10 JPG files to server | Upload success | Server available

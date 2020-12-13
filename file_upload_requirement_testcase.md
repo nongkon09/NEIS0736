@@ -1,23 +1,5 @@
-# File upload requirement test case
-**Pre-condition**
-* Specific file type in JPEG or png format 
-* Identify user 
-* Limit file size per user (Maximum: 5MB per image)
-* Limit 10 files per user
-* Disk quota 100M per user
-* System capacity
+# Test case #V12.1 File upload requirement
 
-**Inputs**
-* Files 100MB size upload
-* Files 5MB size upload
-* Zip bombs upload 
-* 20 files upload
-* 10 files upload
-* 100 users upload at the same time
-
-**Outputs**
-* Upload Success
-* Upload Failed 
-* Error 
-
-**Post-condition**
+| Test case | Pre-Condition | Input | Action | Expected Results | Post-condition |
+|---|---|---|---|---|---|
+|Up load file - 01 | User login, Disk space available, User quota available|File type JPG, 10 files, size 5 MB per file | Upload 10 JPG files to server | success | Server available
